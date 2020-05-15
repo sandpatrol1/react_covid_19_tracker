@@ -1,0 +1,9 @@
+@media only screen and (max-width: 768px) {
+	.hero-body {
+		padding: 0.8rem 1.5rem;
+	}
+}
+
+.logo {
+	padding-right: 5px;
+}

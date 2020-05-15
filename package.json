@@ -1,0 +1,27 @@
+{
+	"name": "covid_19",
+	"homepage": "http://sandpatrol1.github.io/react_covid_19_tracker",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"axios": "^0.19.2",
+		"bulma": "^0.8.2",
+		"chart.js": "^2.9.3",
+		"react": "^16.13.1",
+		"react-bulma-components": "^3.2.0",
+		"react-chartjs-2": "^2.9.0",
+		"react-dom": "^16.13.1",
+		"react-scripts": "1.1.5"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
+	},
+	"devDependencies": {
+		"gh-pages": "^2.2.0"
+	}
+}
